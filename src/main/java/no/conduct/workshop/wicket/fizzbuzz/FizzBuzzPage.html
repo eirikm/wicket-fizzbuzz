@@ -6,16 +6,18 @@
     Wicket FizzBuzz
 </h1>
 
-<h2>Oppgave</h2>
-<ul>
-    <li>Hver gang man trykker på ajax-linken skal tallet øke med en.</li>
-    <li>Hvis det nye tallet er delelig med 3 skal "X" vises ved siden av Fizz (ellers "-")</li>
-    <li>Hvis det nye tallet er delelig med 5 skal "X" vises ved siden av Buzz (ellers "-")</li>
-</ul>
+<h2>Oppgaver</h2>
+<ol>
+    <li>Hver gang man trykker linken skal telleren øke med en.</li>
+    <li>Hvis telleren er delelig med 3 skal "X" vises ved siden av Fizz (ellers "-")</li>
+    <li>Hvis telleren er delelig med 5 skal "X" vises ved siden av Buzz (ellers "-")</li>
+    <li>skriv om til å bruke ajax</li>
+    <li>hvordan kan man klare seg med å kun bruke NumberPanel (som både NumberPanel, FizzPanel og BuzzPanel)</li>
+</ol>
 
 <table>
     <tr>
-        <td>Tall</td>
+        <td>Teller</td>
         <td wicket:id="numberPanel">1</td>
     </tr>
     <tr>
@@ -28,7 +30,7 @@
     </tr>
 </table>
 
-<a wicket:id="ajaxLink">Neste</a>
+<a wicket:id="link">Neste</a>
 
 </body>
 </html>
