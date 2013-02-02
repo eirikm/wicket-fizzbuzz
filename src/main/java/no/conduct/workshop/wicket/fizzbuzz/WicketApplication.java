@@ -1,4 +1,4 @@
-package no.conduct.workshop;
+package no.conduct.workshop.wicket.fizzbuzz;
 
 import no.conduct.workshop.wicket.fizzbuzz.FizzBuzzPage;
 import org.apache.wicket.markup.html.WebPage;
