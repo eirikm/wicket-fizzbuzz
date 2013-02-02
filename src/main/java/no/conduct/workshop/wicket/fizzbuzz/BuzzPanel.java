@@ -7,6 +7,6 @@ import org.apache.wicket.model.Model;
 public class BuzzPanel extends Panel {
     public BuzzPanel(String id, Model<Integer> model) {
         super(id);
-        add(new Label("buzz", model));
+        add(new Label("buzz", "-"));
     }
 }
